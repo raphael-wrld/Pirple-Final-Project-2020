@@ -1,0 +1,366 @@
+/* Media Rules*/ /*Responsiveness*/
+@media (min-width: 768px) and (max-width: 1024px)/*Tablets, Ipads*/
+{
+    body
+    {
+        width: 100%;
+    }
+    header
+    {
+        width: auto;
+        height: 550px;
+    }
+    .all-h1
+    {
+        font-size: 2rem;
+    }
+    .all-h2
+    {
+        font-size: 1.2rem;
+    }
+    #tv-1
+    {
+        width: 350px;
+        height: auto;
+    }
+    .content
+    
+    {
+        height: 250px;
+    }
+    #text-1
+    {
+        margin-left: 20px;
+        padding-left: 25px;
+    }
+    #text-2
+    {
+        padding-left: 10px;
+        margin-right: 0;
+    }
+    #text-3
+    {
+        padding-left: 20;
+    }
+    #content-2
+    {
+        height: 300px;
+    }
+    .content-text
+    {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    #phone
+    {
+        width: 250px;
+        height: auto;
+        padding-left: 30px;
+        margin: 50px;
+    }
+    #tv-2
+    {
+        width: 350px;
+        height: auto;
+        padding-right: 40px;
+    }
+    .btn
+    {
+        width: 700px;
+    }
+    footer
+    {
+        padding-left: 20px;
+        margin-right: 35px;
+        margin-left: 35px;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px)/*Most of the Smartphones Mobiles*/
+{
+    body 
+    {
+        width: 100%;
+    }
+    #form-container
+    {
+        padding-top: 15px;
+    }
+    #logo
+    {
+        width: auto;
+        height: 55px;
+    }
+    #sign-in
+    {
+        margin-top: 13px;
+        padding-top: 3px;
+        padding-bottom: 10px;
+        margin-right: 15px;
+        height: 10.8px;
+        width: auto;
+    }
+    .all-h1
+    {
+        font-size: 1.2rem;
+    }
+    .all-h2
+    {
+        font-size: 0.5rem;
+    }
+    .all-h3
+    {
+        font-size: 10px;
+    }
+    header
+    {
+        height: 350px;
+        width: auto;
+    }
+    input[type="email"]
+    {
+        width: 230px;
+        font-size: 8px;
+        margin-right: 35px;
+        border-radius: 0;
+        border: transparent;
+    }
+    .gtsd
+    {
+        display: block;
+        width: 100px;
+        font-weight: normal;
+        font-size: 10px;
+        padding: 10px 25px 10px 25px;
+        margin-top: 7px;
+        margin-left: 90px;
+        border-radius: 0;
+    }
+    .padding-top
+    {
+        padding-top: 5px;
+    }
+    .content
+    {
+        position: relative;
+        display: block;
+        height: 160px;
+        text-align: center;margin-top: 0;padding-top: 0;
+    }
+    .btn
+    {
+        width: 100%;
+        font-size: 20px;
+        height: 50px;
+    }
+    .line
+    {
+        margin-top: 60px;
+    }
+    .all-h1
+    {
+        font-size: 1.3rem;
+    }
+    .all-h2
+    {
+        font-size: 10px;
+    }
+    .all-h3
+    {
+        font-size: 10px;
+    }
+    input[type="email"]
+    {
+        height: 50px;
+    }
+    .content-text
+    {
+        padding: 0px;
+        margin: 0px;
+    }
+    #content-1
+    {
+        text-align: center;
+    }
+    #tv-1
+    {
+        margin: 0;
+        height:150px;
+        width: auto;padding-bottom: 5px;
+    }
+    #phone
+    {
+        height: 165px;
+        width: auto;
+        margin:4;
+        padding-right: 65px;
+        padding-left: 65px;
+        padding-top: 7px;
+        padding-bottom: 0;
+    }
+    #content-2
+    {
+        padding-bottom: 5pc;
+    }
+    #text-2
+    {
+        padding: 0;
+        margin: 0;
+    }
+    #tv-2
+    {
+        padding-bottom: 5px;
+        margin: 0;
+        height:155px;
+        width: auto;
+    }
+    #faq
+    {
+        padding-top: 15px;
+    }
+    .btn
+    {
+        width: 100%;
+        height: 70px;
+    }
+    footer 
+    {
+        width: 100%;
+        padding-left: 0;
+        margin-right: 5px;
+        margin-left: 10px;
+        font-size: 10px;
+    }
+    
+    .footer a
+    {
+        font-size: 9px;
+    }
+    .footer ul
+    {
+        padding-left: 8px;
+    }
+    .f-lt
+    {
+        padding-left: 2px;
+    }
+    .footer #l1 li
+{
+    padding-bottom: 15px;
+    padding-right: 5px;
+}
+.footer #l2 li
+{
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+.footer #l3 li
+{
+    padding-bottom: 15px;
+    padding-left: 5px;
+}
+.footer #l4 li
+{
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.l-a
+{
+    float: right;
+    padding-right: 15px;
+    font-size: 1px;
+    margin: 0;
+    
+}
+
+}
+@media (min-width: 481px) and (max-width: 767px)/*Low Resolution Tablets, Mobiles */
+{
+    header
+    {
+        height: 500px;
+    }
+    #form-container
+    {
+        padding-top: 10px;
+    }
+    .gtsd
+    {
+        display: block;
+        margin-top: 10px;
+        margin-left: 145px;
+    }
+    input[type="email"]
+    {
+        width: 400px;
+    }
+    .padding-top
+    {
+        padding-top: 15px;
+    }
+    .content
+    {
+        position: relative;
+        display: block;
+        text-align: center;
+    }
+    .line
+    {
+        margin-top: 50px;
+    }
+    .all-h1
+    {
+        font-size: 2.3rem;
+    }
+    .all-h2
+    {
+        font-size: 20px;
+    }
+    .all-h3
+    {
+        font-size: 15px;
+    }
+    input[type="email"]
+    {
+        height: 50px;
+    }
+    .content-text
+    {
+        padding: 5px;
+        margin: 5px;
+    }
+    #tv-1
+    {
+        padding-bottom: 5px;
+        margin: 0;
+        height:290px;
+        width: auto;
+    }
+    #phone
+    {
+        height: 280px;
+        width: auto;
+        padding: 0;
+    }
+    #text-2
+    {
+        padding: 0;
+    }
+    #tv-2
+    {
+        padding-bottom: 5px;
+        margin: 0;
+        height:290px;
+        width: auto;
+    }
+    .btn
+    {
+        width: 100%;
+        height: 70px;
+    }
+    footer
+    {
+        margin: 40px 45px 10px 0;
+        padding:0 10px 30px 5px
+    }
+}
